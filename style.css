@@ -40,6 +40,12 @@ body::-webkit-scrollbar {
     display:block;
 }
 
+.special_project_links {
+    color: #00A8E8;
+}
+
+
+
 .name-span {
     color: #C56D89;
 }

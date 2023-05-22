@@ -9,3 +9,15 @@ function addHoverEffect() {
     });
 }
 //addHoverEffect();
+
+document.addEventListener("DOMContentLoaded", async () => {
+    let testButton = document.getElementById("testButton")
+    testButton.addEventListener("click", function() {
+        let textToCopy = "c"
+        navigator.clipboard.writeText(textToCopy)
+        
+
+    });
+});
+
+
